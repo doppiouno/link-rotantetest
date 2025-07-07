@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Link Rotante</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+
+    .rotating-link {
+      display: inline-block;
+      font-size: 24px;
+      color: #0077cc;
+      text-decoration: none;
+      animation: spin 3s linear infinite;
+    }
+
+    @keyframes spin {
+      0%   { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <a class="rotating-link" href="https://esempio.com">🔗 Cliccami!</a>
+</body>
+</html>
